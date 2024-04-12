@@ -108,3 +108,30 @@ ul {
   padding: 0.6rem;
   color:var(--color-dark-1);
 }
+
+.nav_form {
+  padding: 0.8rem;
+  background-color: var(--color-white-2);
+  display: flex;
+  align-items: center;
+}
+
+.nav_input {
+  padding: 0.4rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.nav_search, .nav_heart, .nav_cart {
+  cursor: pointer;
+}
+
+.nav_items {
+  display: flex;
+  align-items: center;
+}
+
+.nav_heart, .nav_cart {
+  margin-left: 1rem;
+}
