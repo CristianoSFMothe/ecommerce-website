@@ -376,3 +376,11 @@ ul {
   padding: 1rem 2rem;
   color: var(--color-white-1);
 }
+
+/* Products */
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+}
