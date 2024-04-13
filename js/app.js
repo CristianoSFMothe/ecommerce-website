@@ -28,7 +28,7 @@ var x = setInterval(function() {
 }, 1000);
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
+  slidesPerView: 5,
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
