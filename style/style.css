@@ -39,6 +39,15 @@ ul {
   padding: 0rem 1rem;
 }
 
+.w-6 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.h-6 {
+  fill: rgb(239, 140, 1);
+}
+
 /* Top Nav */
 .top_nav {
   width: 100%;
@@ -123,7 +132,7 @@ ul {
   border: none;
 }
 
-.nav_search, .nav_heart, .nav_cart {
+.nav_search, .nav_heart, .nav_cart, .card_top_icon {
   cursor: pointer;
 }
 
@@ -137,10 +146,6 @@ ul {
 }
 
 /* Header */
-.header {
-
-}
-
 .header_container {
   width: 100%;
   display: flex;
@@ -155,5 +160,136 @@ ul {
 }
 
 .header_filter_link {
+  color: var(--color-dark-1);
+}
+
+/* Section */
+.section {
+  margin-top: 10rem;
+}
+
+/* Flash sale */
+.section_category_p {
+  border-left: 1.4rem solid var(--color-primary);
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+  font-size: 1.3rem;
+}
+
+.section_header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 4rem;
+}
+
+.section_title {
+  margin-right: 2rem;
+  font-size: 2.4rem;
+}
+
+#demo {
+  font-size: 1.8rem;
+}
+
+/*  Swiper Slide */
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Cards */
+.card {
+  margin-bottom: 5rem;
+}
+
+.card_top {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+
+.card_img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_tag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9;
+  background-color: var(--color-primary);
+  padding: 0.4rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--color-white-1);
+  border-radius: 0.5rem;
+}
+
+.card_top_icons {
+  position: absolute;
+  z-index: 9;
+  top: 1rem;
+  right: 1rem;
+}
+
+.card_top_icon {
+  width: 3.4rem;
+  height: 3.4rem;
+  padding: 1rem;
+  background-color: var(--color-white-1);
+  border-radius: 10rem;
+}
+
+.card_body {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.card_title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.card_price {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.card_ratings {
+  display: flex;
+}
+
+.card_stars {
+  margin-right: 1rem;
+}
+
+.container_btn {
+  width: 100%;
+  text-align: center;
+}
+
+.container_btn_a {
+  background-color: var(--color-primary);
+  color: var(--color-white-1);
+  padding: 1.2rem 3rem;
+  border-radius: 0.5rem;
 }
