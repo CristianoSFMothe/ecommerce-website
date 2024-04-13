@@ -149,6 +149,16 @@ ul {
   margin-left: 1rem;
 }
 
+.nav_link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav_link:hover {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+
 /* Header */
 .header_container {
   width: 100%;
@@ -161,11 +171,23 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  transition: all 0.3s ease;
 }
+
 
 .header_filter_link {
   color: var(--color-dark-1);
 }
+
+.header_filter_link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.header_filter_link:hover {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
 
 /* Section */
 .section {
