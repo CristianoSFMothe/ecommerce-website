@@ -449,3 +449,23 @@ ul {
   grid-row-start: 4;
   grid-row-end: 8;
 }
+
+/* Services */
+.services_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.service {
+  text-align: center;
+}
+
+.service_title {
+  margin: 1.5rem 0rem;
+}
+
+.service_p {
+  
+}
