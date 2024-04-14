@@ -63,3 +63,11 @@ ScrollReveal().reveal(".section", {
   duration: 1000,
   delay: 100,
 });
+
+ScrollReveal().reveal(".footer", {
+  origin: "bottom",
+  distance: "20px",
+  opacity: 0,
+  duration: 1000,
+  delay: 100,
+});
