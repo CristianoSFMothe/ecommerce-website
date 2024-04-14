@@ -27,11 +27,25 @@ var x = setInterval(function () {
 }, 1000);
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 5,
-  spaceBetween: 30,
+  slidesPerView: 2,
+  spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
   },
 });
 
@@ -71,3 +85,13 @@ ScrollReveal().reveal(".footer", {
   duration: 1000,
   delay: 100,
 });
+
+
+// Mobile Nav
+
+const hamburger = document.querySelector(".hamburger");
+const Nav = document.querySelector(".mobile_nav");
+
+hamburger.addEventListener("click", () => {
+  Nav.classList.toggle("mobile_nav_hide")
+})
